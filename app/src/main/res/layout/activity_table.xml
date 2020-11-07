@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*"
+    tools:context=".Table">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" \n Table Layout"
+        android:textSize="35sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textStyle="bold"
+        />
+
+    <TableRow>
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="70dp"
+            android:text="button1"
+            />
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="70dp"
+            android:text="button2"
+            />
+
+        <Button
+            android:layout_width="147dp"
+            android:layout_height="70dp"
+            android:text="button3" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="70dp"
+            android:text="button1"
+            />
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="70dp"
+            android:layout_span="3"
+            android:text="button2" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="70dp"
+            android:layout_column="1"
+            android:text="button1"
+            />
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="70dp"
+            android:text="button2" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="70dp"
+            android:layout_column="0"
+            android:text="button1"
+            />
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="70dp"
+            android:layout_column="2"
+            android:text="button2" />
+
+    </TableRow>
+
+
+</TableLayout>
